@@ -1,0 +1,248 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+main {
+	border:1px solid #000;
+}
+
+
+
+/*-- fondos -------------------*/
+.fila1 {
+	background-color:#3FEABC;
+}
+.fila2 {
+	background-color:#768DE8;
+}
+.fila3,
+.fila17 {
+	background-color:#EA3FEA;
+}
+.fila4 {
+	background-color:#C0D7E2;
+}
+.fila5 {
+	background-color:#37A3DD;
+}
+.fila6 {
+	background-color:#000;
+}
+.fila7 {
+	background-color:#CDDD37;
+}
+.fila8 {
+	background-color:#C074CC;
+}
+.fila9 {
+	background-color:#37DD3D;
+}
+.fila10,
+.fila11,
+.fila12,
+.fila13,
+.fila20 {
+	background-color:#ECFF53;
+}
+.fila14,
+.fila15,
+.fila16 {
+	background-color:#33CCFF;
+}
+.fila18,
+.fila19 {
+	background-color:#99CC33;
+}
+
+
+
+/*-- bordeados ------------------*/
+.fila1,
+.fila2,
+.fila3,
+.fila4,
+.fila5 {
+	border:1px solid #000;
+}
+.fila6 {
+	border:1px solid #FFF;
+}
+.fila7 {
+	border:1px solid blue;
+}
+.fila8,
+.fila9,
+.fila10,
+.fila11,
+.fila12,
+.fila13,
+.fila14,
+.fila15,
+.fila16,
+.fila18, 
+.fila19,
+.fila20 {
+	border:1px solid #FFF;
+}
+
+
+
+/*-- especificaciones --------------*/
+.fila1 .elemento {
+	display:block;
+}
+.fila2 .elemento,
+.fila3 .elemento,
+.fila4 .elemento,
+.fila5 .elemento {
+	display:inline;
+	margin-right:5px;
+}
+
+
+.fila2 {
+	padding:5px;
+}
+.fila2 .elemento {
+	background-color:#EABF3F;
+	border:1px solid #F00;
+}
+.fila3 {
+	padding:4px;
+}
+.fila3 .elemento:nth-child(1) {
+	background-color:#FFF;
+	border:1px solid #F00;
+}
+.fila3 .elemento:nth-child(2) {
+	background-color:#FEAFEA;
+	padding-right:50px;
+	border:1px solid #0F0;
+}
+.fila4 {
+	padding:3px;
+}
+.fila4 .elemento {
+	background-color:#EFBA81;
+	padding-right:15px;
+	border:1px solid #FFF;
+}
+.fila5 {
+	padding:3px;
+}
+.fila5 .elemento {
+	background-color:#EFBA81;
+	border:1px solid #FFF;
+}
+.fila5 .elemento:nth-child(1) {
+	padding-right:10px;
+}
+.fila5 .elemento:nth-child(2) {
+	padding-right:20px;
+}
+.fila5 .elemento:nth-child(3) {
+	padding-right:30px;
+}
+.fila5 .elemento:nth-child(4) {
+	padding-right:40px;
+}
+
+
+.fila6,
+.fila7,
+.fila8,
+.fila9,
+.fila10,
+.fila11,
+.fila12,
+.fila13 {
+	overflow:hidden;
+	padding:3px;
+}
+.fila6 .elemento,
+.fila7 .elemento,
+.fila8 .elemento {
+	float:right;
+	padding-right:50px;
+	border:1px solid #FFF;
+}
+.fila9 .elemento {
+	float:right;
+}
+
+.fila6 .elemento {
+	background-color:#FFF;
+}
+.fila7 .elemento {
+	background-color:#A00;
+}
+.fila8 .elemento {
+	background-color:#37DD3D;
+}
+.fila9 .elemento,
+.fila10 .elemento,
+.fila11 .elemento,
+.fila12 .elemento,
+.fila13 .elemento {
+	background-color:#C074CC;
+	padding-right:50px;
+	border:1px solid #FFF;
+}
+.derecha {
+	float:right;
+}
+.izquierda {
+	float:left;
+}
+.fila14,
+.fila15,
+.fila16 {
+	padding:7px;
+	text-align:center;
+}
+.fila14 .elemento,
+.fila15 .elemento,
+.fila16 .elemento {
+	display:inline-block;
+	background-color:#66FFFF;
+	margin:0px 2px;
+	padding-right:100px;
+}
+.fila17 {
+	padding:2px 5px;
+}
+.fila17 .elemento {
+	background-color:#CE98CB;
+	margin:5px 0px;
+	border:1px solid #FFF;
+}
+.fila18,
+.fila19 {
+	overflow:hidden;
+	padding:5px;
+}
+.caja {
+	background-color:#11E015;
+	padding:2px 5px;
+	border:1px solid #FFF;
+}
+.caja .elemento {
+	margin:2px 0px;
+	padding-right:150px;
+	border:1px solid #FFF;
+}
+.fila20 {
+	overflow:hidden;
+}
+.fila20 .elemento {
+	float:left;
+	padding-bottom:80px;
+	border:3px solid #000;
+	box-sizing:border-box;
+}
+.fila20 .elemento:nth-child(1) {
+	width:30%;
+}
+.fila20 .elemento:nth-child(2) {
+	width:70%;
+}

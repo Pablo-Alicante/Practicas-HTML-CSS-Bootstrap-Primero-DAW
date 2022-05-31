@@ -1,0 +1,60 @@
+body{
+    background-color: #ff9;
+    background-image: url(http://igformacion.cfoalfas2021.es/ejercicio2/imagenes/fondo.jpg);
+    background-repeat: repeat-y;
+    background-position: center top;
+    margin: 0 auto;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;
+    width: 760px;
+}
+img{
+    width: 760px;
+    aspect-ratio: auto 760/192;
+    height: 192px;
+}
+
+div{
+    width="760"; 
+    height="192";
+}
+
+h1, h2, h3{
+    color: #393; font-family: Baskerville; 
+    border-top: 2px solid #393;
+        border-top-color: rgb(51,153,51);
+        border-top-style: solid;
+        border-top-width: 2px;
+    padding-top: 7px;
+    padding-left: 100px;
+}
+
+h1 + p {
+    color: #f60;
+    font-size: 1.2em;
+    line-height: 140%;
+}
+
+p {
+    color: #666;
+    font-size: 16px;
+    font-family: verdana, Helvetica;
+    text-align: justify;
+    margin-left: 100px;
+}
+
+p.aviso{
+    border: 2px dashed #355;
+    background-color: yellow;
+    color: black;
+    margin: 25px 25px 25px 100px;
+    padding: 20px; 
+}
+
+p.aviso strong{
+    color:#f00;
+}
+
+

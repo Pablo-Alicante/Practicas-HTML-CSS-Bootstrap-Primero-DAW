@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PRÁCTICA 7</title>
+	<meta charset='UTF-8'>
+	<meta name='author' content='Pablo Peñalver'>
+	<meta name='description' content='PRÁCTICA 7'>
+	<meta name='keywords' content='PRÁCTICA 7'>
+		<link rel='stylesheet' href='css/estilos.css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" href="img/favicon.png">
+</head>
+<body>
+<header>
+<a href='index.php' title='Inicio'>
+	<img class='logo' src='img/logo.jpg' alt='logo'>
+</a>
+
+<section class='UsuLogin'>
+	<article>
+		<a href='login.php' title='Registro'>Registro</a>
+	</article>
+	<article>
+		<a href='order.php' title='Mi Pedido'>Mi Pedido</a>
+	</article>
+	<article>
+		Mi tienda:
+		<select>
+			<option selected>Seleccionar</option>
+			<option value='alicante' OnClick='ElegirTienda();'>Alicante</option>
+			<option value='valencia' OnClick='ElegirTienda();'>Castellón</option>
+			<option value='palencia' OnClick='ElegirTienda();'>Valencia</option>
+		</select>
+	</article>
+</section>
+
+
+<section class='UsuCompra'>
+	<article class='online'>
+		<div class='desplegar'>Ayuda compra online</div>
+		<p><a href='' target='_blank'>Ofertas exclusivas online</a></p>
+		<p><a href='' target='_blank'>Gastos de envio</a></p>
+		<p><a href='' target='_blank'>Garantias</a></p>
+		<p><a href='' target='_blank'>Más información</a></p>
+		<p><a href='' target='_blank'>Más información</a></p>
+	</article>
+	
+	<article class='carrito'>
+		<div class='desplegar'>Carrito</div>
+
+	</article>
+</section>
+</header>
+<main>
+<nav class='menu'>
+	<a href='productos.php' title='PRODUCTOS' target='_blank'>PRODUCTOS</a>
+	
+	<a href='promociones.php' title='PROMOCIONES' target='_blank'>PROMOCIONES</a>
+	<a href='servicios.php' title='SERVICIOS' target='_blank'>SERVICIOS</a>
+	<a href='consejos.php' title='IDEAS Y CONSEJOS' target='_blank'>IDEAS Y CONSEJOS</a>
+	<a href='tiendas.php' title='TIENDAS' target='_blank'>TIENDAS</a>
+	<a href='comunidad.php' title='COMUNIDAD' target='_blank'>COMUNIDAD</a>
+	
+	<input type='search' placeholder='Buscar...'>
+</nav>
+
+<img class='banner' src='img/banner.jpg' alt='Vive la magia de la Navidad.'>
+
+<section class='newsletter'>
+	<a href='' title='twitter, leroy merlin' target='_blank'>
+		<img src='img/ico_twitter.png' alt='twitter, leroy merlin'>
+	</a>
+	<a href='' title='facebook, leroy merlin' target='_blank'>
+		<img src='img/ico_facebook.png' alt='facebook, leroy merlin'>
+	</a>
+	<a href='' title='mail, leroy merlin' target='_blank'>
+		<img src='img/ico_mail.png' alt='mail, leroy merlin'>
+	</a>
+	
+	<h2>Nuestras ofertas en tu email</h2>
+	<p>Mantente al día de todas las ofertas u oportunidades de tu tienda habitual</p>
+</section>
+
+<section class='promociones'>
+	<a href='' title=''><img src='img/promocion-1.png' alt=''></a>
+	<a href='' title=''><img src='img/promocion-2.png' alt=''></a>
+	<a href='' title=''><img src='img/promocion-3.png' alt=''></a>
+	<a href='' title=''><img src='img/promocion-4.png' alt=''></a>
+</section>
+
+<section class='guias'>
+	<a href='' title='GUÍA DE CALEFACCIÓN'>
+		<article>
+			<img src='img/guia-1.jpg' alt='GUÍA DE CALEFACCIÓN'>
+			<p class='titulo'>GUÍA DE CALEFACCIÓN</p>
+			<p class='descripcion'>Todo lo que necesitas para elegir chimeneas, estufas y otras soluciones para caldear tu casa.</p>
+		</article>
+	</a>
+	<a href='' title='GUÍA DE EFICIENCIA'>
+		<article>
+			<img src='img/guia-2.jpg' alt='GUÍA DE EFICIENCIA'>
+			<p class='titulo'>GUÍA DE EFICIENCIA</p>
+			<p class='descripcion'>Gana en confort y en ahorro gastando solo la energía que necesitas.</p>
+		</article>
+	</a>
+	<a href='' title='GUÍA DE DECORACIÓN'>
+		<article>
+			<img src='img/guia-3.jpg' alt='GUÍA DE DECORACIÓN'>
+			<p class='titulo'>GUÍA DE DECORACIÓN</p>
+			<p class='descripcion'>Tendencias, inspiración y consejos para decorar y transformar tu casa a tu gusto.</p>
+		</article>
+	</a>
+	<a href='' title='GUÍA DE ANTIRROBO'>
+		<article>
+			<img src='img/guia-4.jpg' alt='GUÍA DE ANTIRROBO'>
+			<p class='titulo'>GUÍA DE ANTIRROBO</p>
+			<p class='descripcion'>Las soluciones para hacer de tu hogar seguro un lugar seguro para toda tu familia.</p>
+		</article>
+	</a>
+	
+	
+	<a href='' title='GUÍA DE COCINAS'>
+		<article>
+			<img src='img/guia-5.jpg' alt='GUÍA DE COCINAS'>
+			<p class='titulo'>GUÍA DE COCINAS</p>
+			<p class='descripcion'>Más de 40.000 combinaciones posibles para llevar a cabo tu proyecto de cocina.</p>
+		</article>
+	</a>
+	<a href='' title='GUÍA DE MAQUINARIA DE JARDÍN'>
+		<article>
+			<img src='img/guia-6.jpg' alt='GUÍA DE MAQUINARIA DE JARDÍN'>
+			<p class='titulo'>GUÍA DE MAQUINARIA DE JARDÍN</p>
+			<p class='descripcion'>Todo lo que necesitas para elegir tu cortacésped, cortabordes y motosierra.</p>
+		</article>
+	</a>
+	<a href='' title='GUÍA DE BRICOLAJE'>
+		<article>
+			<img src='img/guia-7.jpg' alt='GUÍA DE BRICOLAJE'>
+			<p class='titulo'>GUÍA DE BRICOLAJE</p>
+			<p class='descripcion'>Aprende a mejorar tu casa por ti mismo.</p>
+		</article>
+	</a>
+	<a href='' title='GUÍA DE SUELOS LAMINADOS'>
+		<article>
+			<img src='img/guia-8.jpg' alt='GUÍA DE SUELOS LAMINADOS'>
+			<p class='titulo'>GUÍA DE SUELOS LAMINADOS</p>
+			<p class='descripcion'>Consejos sobre suelo laminado: ventajas, tendencias y criterios para elegir la solución más adecuada.</p>
+		</article>
+	</a>
+	
+</section>
+
+
+<section class='rrss'>
+	<a class='rrss-apple' href='' title='apple, leroy merlin' target='_blank'>
+		<img src='img/rrss-apple.png' alt='apple, leroy merlin'>
+	</a>
+	<a class='rrss-youtube' href='' title='youtube, leroy merlin' target='_blank'>
+		<img src='img/rrss-youtube.png' alt='youtube, leroy merlin'>
+	</a>
+	<a class='rrss-mail' href='' title='mail, leroy merlin' target='_blank'>
+		<img src='img/rrss-mail.png' alt='mail, leroy merlin'>
+	</a>
+	<a class='rrss-twitter' href='' title='twitter, leroy merlin' target='_blank'>
+		<img src='img/rrss-twitter.png' alt='twitter, leroy merlin'>
+	</a>
+	<a class='rrss-facebook' href='' title='facebook, leroy merlin' target='_blank'>
+		<img src='img/rrss-facebook.png' alt='facebook, leroy merlin'>
+	</a>
+	<a class='rrss-comunidad' href='' title='comunidad, leroy merlin' target='_blank'>
+		<img src='img/rrss-comunidad.png' alt='comunidad, leroy merlin'>
+	</a>
+	
+	<h2>¡Síguenos!</h2>
+	<p>Siempre estamos compartiendo oportunidades que no querrás perderte</p>
+</section>
+
+
+</main>
+<footer>
+	<a href='' title='Empresa'>Empresa</a>
+	<a href='' title='Aviso legal'>Aviso legal</a>
+	<a href='' title='Contacto y opinión'>Contacto y opinión</a>
+	<a href='' title='Empleo'>Empleo</a>
+	<a href='' title='Política de cookies'>Política de cookies</a>
+	<a href='' title='::Comunicado Seguridad::'>::Comunicado Seguridad::</a>
+</footer>
+</body>
+</html>

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+    crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+</head>
+<body class="bg-secondary">
+    <main class="container bg-light">
+        <header class="clearfix bg-white">
+            <a href="index.php">
+                <img class="float-start m-3" src="Logos_prueba/logo.jpg">
+            </a>
+
+            <div id="Registro" class="container-fluid mx-2">
+                <section class="row row-cols-3 justify-content-end align-items-center mt-md-5 text-end">
+                    <div class="col-1 text-nowrap"><a href="#" class="text-decoration-none text-dark">Registro</a></div>
+                    <div class="col-1 text-nowrap"><a href="#" class="text-decoration-none text-dark">Mi Pedido</a></div>
+                    <div class="col-3 text-nowrap">Mi tienda Sin seleccionar<a href="#" class="text-decoration-none text-success"> (elegir)</a></div>
+                </section>
+            
+                <section class="row row-cols-2 justify-content-end align-items-center mt-md-5 text-end">
+                    <div class="col-3 dropdown">
+                        <div class="dropdown-toggle" data-bs-toggle="dropdown">
+                            <i class="bi bi-person-fill"></i> Ayuda compra online
+                        </div>
+                        <div class="dropdown-menu">
+                            <span><a href="#" class="dropdown-item">Ofertas exclusivas online</a></span>
+                            <span><a href="#" class="dropdown-item">Gastos de envio</a></span>
+                            <span><a href="#" class="dropdown-item">Garantias</a></span>
+                            <span><a href="#" class="dropdown-item">Más información</a></span>
+                        </div>
+                    </div>
+                    
+                    <div class="col-3 dropdown">
+                        <div class="dropdown-toggle" data-bs-toggle="dropdown">
+                            <i class="bi bi-cart-fill"></i>
+                            Carrito <span class="total">0€</span> (0 productos)
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </header>
+        
+            <nav class="row navbar navbar-expand-lg navbar-success bg-success">
+                <div class="container-fluid">  
+                    <ul class="navbar-nav m-2 list-inline justify-content-around w-100">
+                        <i class="bi bi-cart4 text-white"></i>
+                        <li class="nav-item dropdown">   
+                            <a class="nav-link dropdown-toggle text-light text-uppercase" role="button" href="#"
+                            data-bs-toggle="dropdown">Productos</a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-item text-uppercase">uno</li>
+                                <li class="dropdown-item text-uppercase">dos</li>
+                                <li class="dropdown-item text-uppercase">tres</li>
+                            </ul>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a class="nav-link text-light text-uppercase" href="#">Promociones</a>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a class="nav-link text-light border-start border-secondary border-2 text-uppercase" href="#">Servivios</a>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a class="nav-link text-light border-start border-secondary border-2 text-uppercase" href="#">Ideas y consejos</a>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a class="nav-link text-light border-start border-secondary border-2 text-uppercase" href="#">Tiendas</a>
+                        </li>
+    
+                        <li class="nav-item">
+                            <a class="nav-link text-light border-start border-secondary border-2 text-uppercase" href="#">Comunidad</a>
+                        </li>
+                    </ul>
+    
+                    <div class="m-4 input-group w-25">
+                        <input type="text" class="form-control border-0" placeholder="Buscar...">
+                        <span class="bg-white border-0 input-group-text bi bi-search"></span>
+                    </div>
+                </div>
+            </nav>
+        
+
+        <section>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="Logos_prueba/baner-principal.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="Logos_prueba/baner-principal.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="Logos_prueba/baner-principal.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+          
+        <section class="d-flex bg-success my-4 py-2 px-3 rounded-3">
+            <article>
+                <h2 class="m-0 fs-6 fw-bold text-white">Nuestras ofertas en tu email</h2>
+                <span class="m-0 fs-6">Mantente al día de todas las ofertas u oportunidades de tu tienda habitual</span>
+            </article>
+            <article class="ms-auto">
+                <a href="#">
+                    <img src="Logos_prueba/ico_mail.png">
+                    <a href="#">
+                    <img src="Logos_prueba/ico_facebook.png">
+                </a>
+               <a href="#">
+                    <img src="Logos_prueba/ico_twitter.png">
+                </a>
+            </article>
+        </section>
+
+        
+        <section class="container row justify-content-evenly">
+            <a class="col" href="#"><img src="Logos_prueba/baner-1.png">       </a>
+            <a class="col "href="#"><img src="Logos_prueba/baner-2.png">       </a>
+            <a class="col" href="#"><img src="Logos_prueba/baner-3.png">       </a>
+            <a class="col" href="#"><img src="Logos_prueba/baner-4.png">       </a>
+        </section>
+        
+        <section class="container">
+                <div class="row mt-5 border-bottom-1 border-success">
+                    <div class="col-lg-3 col-md-6 col-sm-12 d-flex">
+                       <div>
+                            <a href="#"><img src="Logos_prueba/guia-1.jpg" alt=""></a>
+                        </div>
+                        <div class="text-w ms-2">
+                            <h5 class="card-title fs-6">GUÍA DE CALEFACCIÓN</h5>
+                            <span> Todo lo que necesitas para elegir chimeneas, estufas  y otras soluciones para caldear tu casa.</span>
+                        </div>
+                    </div>
+            
+
+                <div class="col-lg-3 col-md-6 col-sm-12 d-flex">
+                    <div>
+                        <a href="#"><img src="Logos_prueba/guia-2.jpg" alt=""></a>
+                     </div>
+                     <div class="text-w ms-2">
+                        <h5 class="card-title fs-6">GUÍA DE EFICIENCIA</h5>
+                        <span> Gana en confort y en ahorro gastando solo la energía que necesitas.</span>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 d-flex">
+                    <div>
+                        <a href="#"><img src="Logos_prueba/guia-3.jpg" alt=""></a>
+                    </div>
+                    <div class="text-w ms-2">
+                        <h5 class="card-title fs-6">GUÍA DE DECORACIÓN</h5>
+                        <span> Tendencias, insiración y consejos para decorar y transformar tu casa a tu gusto.</span>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 d-flex">
+                    <div>
+                        <a href="#"><img src="Logos_prueba/guia-4.jpg" alt=""></a>
+                    </div>
+                    <div class="text-w ms-2">
+                        <h5 class="card-title fs-6">GUÍA ANTIRROBO</h5>
+                        <span> Las soluciones para hacer de tu hogar seguro un lugar seguro para toda tu familia.</span>
+                    </div>
+                </div>
+            </div>
+
+        <div class="row mt-5 border-bottom-1 border-success">
+            <div class="col-lg-3 col-md-6 col-sm-12 d-flex">
+                <div>
+                     <a href="#"><img src="Logos_prueba/guia-5.jpg" alt=""></a>
+                </div>
+                <div class="text-w ms-2">
+                    <h5 class="card-title fs-6">GUÍA DE COCINAS</h5>
+                    <span> Más de 40.000 combinaciones posibles para llevar a cabo tu proyecto de cocina.</span>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 d-flex">
+                <div>
+                    <a href="#"><img src="Logos_prueba/guia-6.jpg" alt=""></a>
+                </div>
+                <div class="text-w ms-2">
+                    <h5 class="card-title fs-6">GUÍA DE MAQUINARIA DE JARDÍN</h5>
+                    <span> Todo lo que necesitas para elegir tu cortacésped, cortabordes, motosierras...</span>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12 d-flex">
+                <div>
+                    <a href="#"><img src="Logos_prueba/guia-7.jpg" alt=""></a>
+                </div>
+                    <div class="text-w ms-2">
+                        <h5 class="card-title fs-6">GUÍA DE BRICOLAJE</h5>
+                        <span> Aprende a maejorar tu casa por ti mismo.</span>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12 d-flex">
+                    <div>
+                        <a href="#"><img src="Logos_prueba/guia-8.jpg" alt=""></a>
+                    </div>
+                    <div class="text-w ms-2">
+                        <h5 class="card-title fs-6">GUÍA DE SUELOS LAMINADOS</h5>
+                        <span> Consejos sobre suelo laminado: ventajas, tendencias, y criterios para elegir la solución más adecuada..</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="bg-success">
+
+        <section class="container row justify-content-center align-self-center d-flex bg-secondary my-4 py-2 px-3 rounded-3">
+            <div class="col">
+                <div class="fs-4">¡Síguenos!</div>
+                <div>Siempre estamos compartiendo</div>
+                <div>oportunidades que no querrás perderte</div>
+            </div>
+
+            <div class="col d-flex text-end">
+                <a class="float-start bg-warning p-1 rounded-circle" href="#"><img class="rounded-circle" src="Logos_prueba/comunidad.png"></a>
+                <a class="float-start bg-primary p-1 rounded-circle" href="#"><img class="rounded-circle" src="Logos_prueba/facebook.png"></a>
+                <a class="float-start bg-info p-1 rounded-circle" href="#"><img class="rounded-circle" src="Logos_prueba/twitter.png"></a>
+                <a class="float-start bg-success p-1 rounded-circle" href="#"><img class="rounded-circle" src="Logos_prueba/sobre.png"></a>
+                <a class="float-start bg-danger p-1 rounded-circle" href="#"><img class="rounded-circle" src="Logos_prueba/youtube.png"></a>
+                <a class="float-start bg-dark p-1 rounded-circle" href="#"><img class="rounded-circle" src="Logos_prueba/apple.png"></a>
+            </div>
+        </section>
+        
+        <footer class="nav justify-content-evenly">
+            <a href="#" class="text-decoration-none text-success mt-md-3">Empresa</a>
+            <a href="#" class="text-decoration-none text-success mt-md-3">Aviso Legal</a>
+            <a href="#" class="text-decoration-none text-success mt-md-3">Contacto y Opinión</a>
+            <a href="#" class="text-decoration-none text-success mt-md-3">Empleo</a>
+            <a href="#" class="text-decoration-none text-success mt-md-3">Política de Cookies</a>
+            <a href="#" class="text-decoration-none text-success mt-md-3">::Comunicado de Seguridad::</a>
+            <a class="text-decoration-none text-dark mt-md-3">Síguenos en: <img src="Logos_prueba/footer_facebook.png">Facebook<img src="Logos_prueba/ico_twitter.png">Twitter</a>
+        </footer>
+    </main>    
+</body>
+</html>
+
+
+
